@@ -1,0 +1,256 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    background-color:skyblue;
+}
+
+.container{
+    width:960px;
+    margin:auto;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+header{
+    background: rgb(34, 127, 150);
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    
+    
+}
+
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+    overflow: hidden;
+}
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:20px;
+}
+header img{
+    margin-bottom:  30px;
+}
+#boxes li{
+display: inline;
+}
+#boxes li p{
+    color:black;
+}
+#boxes li p :hover{
+    color: tomato;
+    font-weight: bold;
+}
+h2{
+    text-align:center;
+    text-emphasis: 200px;
+}
+
+#boxes h3{
+    text-align:center;
+}
+
+header .highlight, header .current a{
+    color:orange;
+    font-weight: bold;
+}
+header a:hover{
+    color:black;
+    font-weight:bold;
+}
+
+#boxes{
+    min-height:400px;
+    background-color:skyblue;
+    text-align: center;
+}
+#boxes .box{
+    float:left;
+    width:320px;
+    }
+#workexperience h3{
+    text-align: center;
+
+}
+#workexperience {
+    min-height:200px;
+    background-color: rgb(34, 127, 150);
+    text-align: center;
+        
+}
+#workexperience .box{
+    float:left;
+    width:320px;
+    color:white;
+   
+}
+#workexperience li {
+    display:inline;
+}
+
+#boxes .box:hover{
+    color:tomato;
+    font-weight:bold;
+}
+#boxes img{ 
+    width:50%;
+    height: 20%;
+}
+#workexperience .box:hover{
+    color:rgb(199, 218, 199);
+    font-weight:bold;
+}
+.forms #tawa {
+align-content: center;
+
+}
+
+.forms{ 
+    padding:0px;
+    margin:auto; 
+    overflow:hidden;
+    align-items: center ;
+}
+.forms {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 0.5fr;  
+    grid-auto-rows: minmax(100px, auto);
+    align-items: ;
+    justify-items: stretch;
+    margin-block-end:0px; 
+}
+.forms .h{
+    background-color:greenyellow;
+    padding: 0px;
+    display: inline;
+    margin-top: 20px;
+}
+
+#ul {
+display:list-item;
+border: 2px brown solid;
+width:100%;
+display: grid;
+align-content: center;
+grid-gap: 1em;
+background-color: rgb(212, 108, 34);
+}
+#Work {
+    border: 2px brown solid;
+    width:100%;
+    display:grid;
+    align-content: center;
+    background-color: rgb(212, 108, 34);
+}
+
+.forms #red{
+    color: rgb(202, 35, 35);
+}
+
+
+@media screen and (max-width:959px){
+    .container {width:100%;
+    padding:0;}
+    img{width:100%;}  
+
+    #boxes{
+    width:100%;
+    padding:0%;}
+
+    #workexperience{
+        width:100%;
+        padding:0%;
+    }
+    .forms{
+        width:100%;
+        padding: 0%;
+    }
+    #output {
+        width:auto;
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width:640px){
+    .container {width:80%;
+    padding:0;}
+    img{width:50%;}  
+
+    #boxes{
+    width:100%;
+    padding:0%;}
+
+    #workexperience{
+        width:100%;
+        padding:0%;
+    }
+    .forms{
+        width:100%;
+        padding: 0%;
+    }
+}
+@media screen and (max-width:320px){
+    .container{width:100%;
+    padding:0;}
+    img{width:100%;}  
+
+    #boxes{
+    width:100%;
+    padding:0%;
+    }
+
+    #workexperience{
+        width:100%;
+        padding:0%;
+        
+    }
+    .forms{
+        width:100%;
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width:1920px){
+    align:center;
+    .container {width:70%;
+    padding:0;}
+    img{width:100%;}  
+
+    #boxes{
+    width:100%;
+    padding:0%;}
+
+    #workexperience{
+        width:100%;
+        padding:0%;
+    }
+    .forms{
+        width:100%;
+        padding: 0%;
+    }
+}
